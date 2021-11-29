@@ -40,7 +40,7 @@ Select * From Tema;
 GO
 
 
-INSERT INTO Projeto(IdTema, IdProfessor, NomeProjeto, Descrição)
+INSERT INTO Projeto(IdTema, IdProfessor, NomeProjeto, Descricao)
 VALUES
 	(1 , 1 , 'Controle de Estoque' , 'Organização de estoque' ),
 	(2 , 2 , 'Listagem de Personagens' , 'Listar' );

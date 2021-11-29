@@ -41,7 +41,7 @@ CREATE TABLE Projeto(
    IdTema INT FOREIGN KEY REFERENCES Tema(IdTema) NOT NULL,
    IdProfessor INT FOREIGN KEY REFERENCES Professor(IdProfessor) NOT NULL,
    NomeProjeto VARCHAR(40) NOT NULL UNIQUE,
-   Descrição VARCHAR(300) NOT NULL,
+   Descricao VARCHAR(300) NOT NULL,
 
 );
 GO
