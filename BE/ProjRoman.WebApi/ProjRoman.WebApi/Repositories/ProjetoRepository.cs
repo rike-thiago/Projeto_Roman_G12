@@ -1,5 +1,6 @@
 ﻿using ProjRoman.WebApi.Contexts;
 using ProjRoman.WebApi.Domains;
+using ProjRoman.WebApi.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProjRoman.WebApi.Repositories
 {
-    public class ProjetoRepository
+    public class ProjetoRepository : IProjetoRepository
     {
         RomanContext ctx = new RomanContext();
         public void CadastrarProj(Projeto proj)

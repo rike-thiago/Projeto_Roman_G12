@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 
 namespace ProjRoman.WebApi.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
